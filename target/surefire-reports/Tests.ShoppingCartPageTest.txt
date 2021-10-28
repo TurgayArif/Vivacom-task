@@ -1,16 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Tests.ShoppingCartPageTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.586 s <<< FAILURE! - in Tests.ShoppingCartPageTest
-Tests.ShoppingCartPageTest.canAddAndRemoveItemsFromShoppingCart  Time elapsed: 27.556 s  <<< ERROR!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=95.0.4638.54)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'TIKO', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\lando\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bfc611982aa0e9166cb77921b1e179b6
-	at Tests.ShoppingCartPageTest.canAddAndRemoveItemsFromShoppingCart(ShoppingCartPageTest.java:16)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.168 s <<< FAILURE! - in Tests.ShoppingCartPageTest
+Tests.ShoppingCartPageTest.canAddAndRemoveItemsFromShoppingCart  Time elapsed: 83.15 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Р’ РјРѕРјРµРЅС‚Р° РєРѕС€РЅРёС†Р°С‚Р° РІРё Рµ РїСЂР°Р·РЅР°> but was: <В момента кошницата ви е празна>
+	at Tests.ShoppingCartPageTest.canAddAndRemoveItemsFromShoppingCart(ShoppingCartPageTest.java:34)
 
