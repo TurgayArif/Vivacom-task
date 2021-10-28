@@ -64,7 +64,8 @@ public class ShoppingCartPage extends BasePage {
     /**
      * Method for verifying that the terms and conditions button are displayed
      */
-    public ShoppingCartPage verifyTermsButtonIsDisplayed() {
+    public ShoppingCartPage verifyTermsButtonIsDisplayed() throws InterruptedException {
+        Thread.sleep(2000);
         WebElement termsCheckboxButtonSelector = driver.findElement(By.xpath("//*[@id=\"shopping-cart-span\"]/div[1]/aside/div[1]/div/div[5]/div[1]/div/label"));
         waitForVisibilityOf(termsCheckboxButtonSelector);
         Assertions.assertTrue(termsCheckboxButtonSelector.isDisplayed());
@@ -121,7 +122,8 @@ public class ShoppingCartPage extends BasePage {
      */
     public void verifyEmptyShoppingCart() throws InterruptedException {
         Thread.sleep(3000);
+        String expectedText = "В момента кошницата ви е празна";
         waitForVisibilityOf(driver.findElement(By.xpath("//*[@id=\"shopping-cart-span\"]/div[1]/div/div/section/div/div/h3")));
-        Assertions.assertEquals("В момента кошницата ви е празна", driver.findElement(By.xpath("//*[@id=\"shopping-cart-span\"]/div[1]/div/div/section/div/div/h3")).getText());
+        Assertions.assertEquals(expectedText, driver.findElement(By.xpath("//*[@id=\"shopping-cart-span\"]/div[1]/div/div/section/div/div/h3")).getText());
     }
 }
