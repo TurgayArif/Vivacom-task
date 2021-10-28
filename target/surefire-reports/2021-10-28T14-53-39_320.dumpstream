@@ -1,0 +1,4 @@
+# Created at 2021-10-28T14:53:39.893
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Pragmatic - QA Complete\QAC Course\Software testing_Last module\lecture 11 - Test automation UI_API\Vivacom_Task\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
