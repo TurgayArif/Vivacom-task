@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Tests.ShoppingCartPageTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.168 s <<< FAILURE! - in Tests.ShoppingCartPageTest
-Tests.ShoppingCartPageTest.canAddAndRemoveItemsFromShoppingCart  Time elapsed: 83.15 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Р’ РјРѕРјРµРЅС‚Р° РєРѕС€РЅРёС†Р°С‚Р° РІРё Рµ РїСЂР°Р·РЅР°> but was: <В момента кошницата ви е празна>
-	at Tests.ShoppingCartPageTest.canAddAndRemoveItemsFromShoppingCart(ShoppingCartPageTest.java:34)
-
